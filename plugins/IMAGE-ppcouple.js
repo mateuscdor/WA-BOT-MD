@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
   await conn.sendFile(m.chat, json.result.female, '', 'cewe', m)
 }
 handler.help = ['ppcouple', 'ppcp']
-handler.tags = ['internet']
+handler.tags = ['image']
 handler.command = /^(pp(cp|couple))$/i
 
 handler.limit = true
