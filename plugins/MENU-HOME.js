@@ -51,7 +51,7 @@ Runtime: ${uptime}`
                {
              quickReplyButton: {
                displayText: '⚡ SPEED',
-               id: '.donasi',
+               id: '.ping',
              }
 
            },
