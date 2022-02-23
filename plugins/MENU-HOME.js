@@ -72,16 +72,18 @@ Runtime: ${uptime}`
          { messageId: template.key.id }
      )
 }
-handler.help = ['home', 'bot', '?']
+handler.help = ['home']
 handler.tags = ['main']
-handler.command = /^(home|bot)$/i
+handler.command = /^(home)$/i
+
 handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
 handler.admin = false
 handler.botAdmin = false
-handler.fail = null
+
+
 module.exports = handler
 
 function ucapan() {
