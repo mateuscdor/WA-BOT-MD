@@ -113,7 +113,7 @@ module.exports = {
 
                     money: 0,
                     healt: 100,
-                    limit: 100,
+                    limit: 10,
                     potion: 10,
                     sampah: 0,
                     kayu: 0,
