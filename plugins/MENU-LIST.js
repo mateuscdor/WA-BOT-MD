@@ -209,24 +209,24 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 👋${name}
 〔─────「 WA-BOT 」─────〕
 
-┌─〔 📍 RULES WA-BOT 📍 〕
-├ ⎔ Dilarang Spam
-├ ⎔ Beri Jeda 5 Detik
-├ ⎔ Dilarang Diperjual belikan
-├ ⎔ Dilarang Share Nomer Bot
-├ ⎔ Kecuali Izin Owner√
-└ ⎔ Selainnya Tanya Owner
+───〔 📍 RULES WA-BOT 📍 〕───
+⎔ Dilarang Spam ❌
+⎔ Beri Jeda 5 Detik 💤
+⎔ Dilarang Ngecheat 💰
+⎔ Dilarang Buat 18+ 🔞
+⎔ Dilarang Buat Gore 📵
+⎔ Selainnya Tanya Owner 👤
 
-┌─〔 💫 INFORMATION 💫 〕
-├ Ⓣ : Text
-├ ⓔ : Efek
-├ Ⓛ : Limit
-├ Ⓟ : Premium
-└ ⓜ : Maintance
+───〔 ⚡ INFORMATION ⚡ 〕───
+Ⓣ : Text 📄
+ⓔ : Efek 🪄
+Ⓛ : Limit ✅
+Ⓟ : Premium 💳
+ⓜ : Maintance 📴
 
-┌─〔 🔥 SUPORT US 🔥 〕
-├ Website : http://cmd.to/Ir24q
-└ Bot Group : http://cmd.to/IWPB1
+───〔 ✨ ABOUT BOT ✨ 〕───
+Website : http://cmd.to/Ir24q
+Bot Group : http://cmd.to/IWPB1
 
 
 `.trim(),
@@ -249,7 +249,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "title": "✨Informasi Bot✨"
               }, {
                 "rows": [{
-                  "title": `👾S E M U A P E R I N T AH👾`,
+                  "title": `👾S E M U A - P E R I N T AH👾`,
                   "description": "",
                   "rowId": `${_p}? all`
                   }, {
@@ -257,15 +257,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "🥺A N I M E M E N U🥺",
+                  "title": "🥺A N I M E - M E N U🥺",
                   "description": "",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "💥S T I C K E R M E N U💥",
+                  "title": "💥S T I C K E R - M E N U💥",
                   "description": "",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "💾D O W N L O A D M E N U💾",
+                  "title": "💾D O W N L O A D - M E N U💾",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
@@ -273,63 +273,63 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "🥳F U N M E N U🥳",
+                  "title": "🥳F U N - M E N U🥳",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "🎲G A M E M E N U🎲",
+                  "title": "🎲G A M E - M E N U🎲",
                   "description": "",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "🃏G I T H U B M E N U🃏",
+                  "title": "🃏G I T H U B - M E N U🃏",
                   "description": "",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "🎭G R O U P M E N U🎭",
+                  "title": "🎭G R O U P - M E N U🎭",
                   "description": "",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "🌌I M A G E M E N U🌌",
+                  "title": "🌌I M A G E - M E N U🌌",
                   "description": "",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "🌏I N T E R N E T M E N U🌏",
+                  "title": "🌏I N T E R N E T - M E N U🌏",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "✨I S L A M M E N U✨",
+                  "title": "✨I S L A M - M E N U✨",
                   "description": "",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "🐚K E R A N G M E N U🐚",
+                  "title": "🐚K E R A N G - M E N U🐚",
                   "description": "",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "🪄M A K E R M E N U🪄",
+                  "title": "🪄M A K E R - M E N U🪄",
                   "description": "",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "⛔O W N E R M E N U⛔",
+                  "title": "⛔O W N E R - M E N U⛔",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "🎶V O I C E M E N U🎶",
+                  "title": "🎶V O I C E - M E N U🎶",
                   "description": "",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "💳P R E M I U M M E N U💳",
+                  "title": "💳P R E M I U M - M E N U💳",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "🌟Q U O T E S M E N U🌟",
+                  "title": "🌟Q U O T E S - M E N U🌟",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "🎮R P G M E N U🎮",
+                  "title": "🎮R P G - M E N U🎮",
                   "description": "",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "🔖S T A L K E R M E N U🔖",
+                  "title": "🔖S T A L K E R - M E N U🔖",
                   "description": "",
                   "rowId": `${_p}? stalk`
                 }, {
@@ -337,7 +337,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "🔮T O O L S M E N U🔮",
+                  "title": "🔮T O O L S - M E N U🔮",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }
@@ -404,7 +404,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let pp = fs.readFileSync('./src/welcome.png')
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Private Chat", pribadi, `🌏HOME`, `.menu`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Chat Owner", pribadi, `🌏DASHBOARD`, `.home`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
