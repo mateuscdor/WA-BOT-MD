@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text, usedPrefix }) => {
-  if (!text) throw `Contoh Penggunaan\n${usedPrefix}spamcall 628xxxxxxxx`
+  if (!text) throw `Contoh Penggunaan\n${usedPrefix}spamcall 628xxxxxxxx Limit 3 Kali Sehari`
   let nomor = text.replace(/[^0-9]/gi, '').slice(2)
   if (!nomor.startsWith('8')) throw `Contoh Penggunaan\n${usedPrefix}spamcall 628xxxxxxxx`
   m.reply('✨Tunggu permintaan anda sedang diproses...')
