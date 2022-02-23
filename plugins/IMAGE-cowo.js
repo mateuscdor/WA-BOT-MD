@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
     }
 }
 handler.help = ['cewe']
-handler.tags = ['randomimage']
+handler.tags = ['internet']
 handler.command = /^cewe$/i
 handler.limit = true
 
