@@ -25,7 +25,7 @@ wa.me/62895426157070 (Owner)
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/welcome.jpg') }, 
+           jpegThumbnail: fs.readFileSync('./media/donasi.png') }, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
