@@ -10,13 +10,13 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
   let tumbnel = await await (await fetch(thumb)).buffer()
   conn.sendButtonLoc(m.chat, tumbnel, `
-*Title:* ${title}
-*Filesize:* ${filesizeF}
-${isLimit ? 'Pakai ': ''}
+*TITLE :* ${title}
+*FILESIZE :* ${filesizeF}
+*${isLimit ? 'Pakai ': ''}Link Download:* 
 ${await shortlink(dl_link)}
 `, `Jika Audio tidak di kirim
 silahkan klik link di atas untuk mendownloadnya
-`.trim(), 'ok', 'ok', m)
+`.trim(), 'OK', 'OK', m)
   if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp3', `
 *Title:* ${title}
 *Filesize:* ${filesizeF}
