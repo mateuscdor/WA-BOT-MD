@@ -28,12 +28,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (yt2 === false) throw 'semua server gagal'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
 let anu =  `
-*Judul:* ${title}
-*Ukuran File Audio:* ${filesizeF}
-*Ukuran File Video:* ${yt2.filesizeF}
-*Server y2mate:* ${usedServer}
-*link sumber:* 
-${vid.url}
+*TITLE :* ${title}
+*FILE SIZE AUDIO :* ${filesizeF}
+*FILE SIZE VIDEO:* ${yt2.filesizeF}
 
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
