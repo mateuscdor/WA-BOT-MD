@@ -19,16 +19,16 @@ let stikerhuuu = [
  "https://telegra.ph/file/f1c8243ea1f860e564a5b.png",//fail
  "https://telegra.ph/file/11584871344c9dd1fb951.png",//censored
  "https://telegra.ph/file/06221645acb50c6846780.png",//pain
- "https://telegra.ph/file/300610838ffa0e6576eb9.png",//patrick pembohong
- "https://telegra.ph/file/954afe562e58c144620ae.png",//spongebob FBI
- "https://telegra.ph/file/72026dcc46e4cb4b6f9ae.png",//mazowski monster inc
- "https://telegra.ph/file/aa9f1bea869e362e6f56e.png",//wkwk
- "https://telegra.ph/file/09bbff0da316ba21b4f8e.png",//kucing2
- "https://telegra.ph/file/2e0637d57e3cc1abcb4a0.png",//patrick anak setan
- "https://telegra.ph/file/d771ae015b5486859d03f.png",//mazowski 2
- "https://telegra.ph/file/9c7606f571c05b4d0c941.png",//hengker
- "https://telegra.ph/file/84fd937257bcd614d6c9e.png",//anjing
- "https://telegra.ph/file/b8ba6989c00c50df049d0.png",//bapak bapak lovee
- "https://telegra.ph/file/2f618fffab6ff7bea32ab.png",//abang saleh
- "https://telegra.ph/file/dfbf483c209a31f01b4e5.png"//hengker2
+ "https://telegra.ph/file/326306bdfefafab19f20c.png",//fake smile
+ "https://telegra.ph/file/27dccdb75a07ddc2a86f0.png",//fake smile2
+ "https://telegra.ph/file/ecdaa231db9a2889a1f5a.png",//fake smile3
+ "https://telegra.ph/file/244ce053442122e951262.png",//fake smile4
+ "https://telegra.ph/file/0a1c503dd133127d555cc.png",//love yourself
+ "https://telegra.ph/file/09011c161e5acdc09adba.png",//no signal
+ "https://telegra.ph/file/9195272cdf4fcb83ff65f.png",//pain 2
+ "https://telegra.ph/file/513e77ab1828bf2b04289.png",//supreme
+ "https://telegra.ph/file/0d055ae8f069b6008c571.png",//loser
+ "https://telegra.ph/file/c9b6480bf242c57204efa.png",//supreme2
+ "https://telegra.ph/file/2f618fffab6ff7bea32ab.png",//supreme3
+ "https://telegra.ph/file/ec8099f80965561856212.png"//smile
 ]
