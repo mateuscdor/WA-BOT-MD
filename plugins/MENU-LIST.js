@@ -392,10 +392,12 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       npmname: package.name,
       npmdesc: package.description,
       version: package.version,
+      exp: exp - min,
+      maxexp: xp,
+      totalexp: exp,
+      xp4levelup: max - exp,
       github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
-      name,
-      ucapan: ucapan(),
-      name, weton, week, date, dateIslamic, time,
+      level, limit, money, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
