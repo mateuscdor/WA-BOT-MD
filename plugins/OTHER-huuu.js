@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 
-conn.sendImageAsSticker(m.chat, pickRandom(stikerhuuu), m, { packname: "sticker by", author: "Elyas" })
+conn.sendImageAsSticker(m.chat, pickRandom(stikerhuuu), m, { packname: "sticker by", author: "Mx-Shimmer-01" })
 }
 
 handler.customPrefix = /^(huuu)$/i
@@ -12,13 +12,13 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 let stikerhuuu = [
- "https://telegra.ph/file/fa2bbea0f7de2575cf027.png",//patrick huu
- "https://telegra.ph/file/4a2db7bc9f3f9ecfc007d.png",//anime yntkts
- "https://telegra.ph/file/5f6079714851d9927697e.png",//windah bocil
- "https://telegra.ph/file/d5100b4ce95a0012e88c1.png",//patrick bawa minum
- "https://telegra.ph/file/2ade25087c89f86587853.png",//pak polisi pap tt
- "https://telegra.ph/file/eb2b5e5fff569896c1639.png",//kucing1
- "https://telegra.ph/file/bd8a0e7ea01218531798b.png",//kacamata
+ "https://telegra.ph/file/2a4c4f2acfd122231d6eb.png",//mikey
+ "https://telegra.ph/file/fa1b5be2dbafd574e5fd4.png",//anime ramdom
+ "https://telegra.ph/file/de0c7f6df8f565023ab55.png",//waifu 
+ "https://telegra.ph/file/cd8ed03c65a4fb9f59799.png",//yamete
+ "https://telegra.ph/file/f1c8243ea1f860e564a5b.png",//fail
+ "https://telegra.ph/file/11584871344c9dd1fb951.png",//censored
+ "https://telegra.ph/file/06221645acb50c6846780.png",//pain
  "https://telegra.ph/file/300610838ffa0e6576eb9.png",//patrick pembohong
  "https://telegra.ph/file/954afe562e58c144620ae.png",//spongebob FBI
  "https://telegra.ph/file/72026dcc46e4cb4b6f9ae.png",//mazowski monster inc
