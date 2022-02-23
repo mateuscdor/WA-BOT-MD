@@ -253,7 +253,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "rows": [{
                   "title": `👾SEMUA PERINTAH👾`,
                   "description": "",
-                  "rowId": '${_p}? all'
+                  "rowId": `${_p}? all`
                   }, {
                   "title": "🎉ABSEN & VOTING🎉",
                   "description": "",
