@@ -168,25 +168,39 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedContentText: text.trim(),
            locationMessage: { 
            jpegThumbnail: fs.readFileSync('./src/welcome.png') },
-           hydratedFooterText: `🅛=limit 🅟=premium`,
+           hydratedFooterText: `⎔ Active 24H Nonstop`,
            hydratedButtons: [{
-             quickReplyButton: {
-               displayText: 'HOME',
-               id: '.menu',
+             urlButton: {
+               displayText: '👤 Private Chat',
+               url: 'https://wa.me/6285745434522'
              }
 
            },
              {
+             urlButton: {
+               displayText: '👥 Group Chat',
+               url: 'https://wa.me/6285745434522'
+             }
+
+           },
+               {
              quickReplyButton: {
-               displayText: 'SPEED',
-               id: '.ping',
+               displayText: '👤 Owner',
+               id: '.owner',
+             }
+
+           },
+               {
+             quickReplyButton: {
+               displayText: '💰 Donasi',
+               id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: 'BOTSTAT',
-               id: '.botstat',
+               displayText: '⚡ Speed',
+               id: '.ping',
              }
            }]
          }
