@@ -20,7 +20,7 @@ SILAHKAN PILIH SENDIRI`
          hydratedTemplate: {
            hydratedContentText: tiktok,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./src/tiktok.png')}, 
+           jpegThumbnail: fs.readFileSync('./media/tiktok.png')}, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
