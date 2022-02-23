@@ -238,106 +238,106 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             sections: [
               {
                 "rows": [{
-                  "title": `😎OWNER BOT😎`,
+                  "title": `😎O W N E R B O T😎`,
                   "description": "",
                   "rowId": `.owner`
                 },{
-                  "title": "🤖INFORMASI🤖",
+                  "title": "🤖I N F O R M A S I🤖",
                   "description": "",
                   "rowId": `${_p}? info`
                 }],
                 "title": "✨Informasi Bot✨"
               }, {
                 "rows": [{
-                  "title": `👾SEMUA PERINTAH👾`,
+                  "title": `👾S E M U A P E R I N T AH👾`,
                   "description": "",
                   "rowId": `${_p}? all`
                   }, {
-                  "title": "🎉ABSEN & VOTING🎉",
+                  "title": "🎉A B S E N & V O T I N G🎉",
                   "description": "",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "🌟ANIME MENU🌟",
+                  "title": "🥺A N I M E M E N U🥺",
                   "description": "",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "💥STICKER & CONVERTER💥",
+                  "title": "💥S T I C K E R M E N U💥",
                   "description": "",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "📁DOWNLOADER MENU📁",
+                  "title": "💾D O W N L O A D M E N U💾",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "🧬EXP & LIMIT🧬",
+                  "title": "🧬E X P & L I M I T🧬",
                   "description": "",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "🥳FUN MENU🥳",
+                  "title": "🥳F U N M E N U🥳",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "🎮GAME MENU🎮",
+                  "title": "🎲G A M E M E N U🎲",
                   "description": "",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "👻GITHUB MENU👻",
+                  "title": "🃏G I T H U B M E N U🃏",
                   "description": "",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "👥GROUP MENU👥",
+                  "title": "🎭G R O U P M E N U🎭",
                   "description": "",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "🌌IMAGE MENU🌌",
+                  "title": "🌌I M A G E M E N U🌌",
                   "description": "",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "🌏INTERNET MENU🌏",
+                  "title": "🌏I N T E R N E T M E N U🌏",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "🌠ISLAM MENU🌠",
+                  "title": "✨I S L A M M E N U✨",
                   "description": "",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "🐚KERANG AJAIB🐚",
+                  "title": "🐚K E R A N G M E N U🐚",
                   "description": "",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "🛠️MAKER MENU🛠️",
+                  "title": "🪄M A K E R M E N U🪄",
                   "description": "",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "🔒OWNER MENU🔒",
+                  "title": "⛔O W N E R M E N U⛔",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "🎶PENGUBAH SUARA🎶",
+                  "title": "🎶V O I C E M E N U🎶",
                   "description": "",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "💳PREMIUM MENU💳",
+                  "title": "💳P R E M I U M M E N U💳",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "💡QUOTES MENU💡",
+                  "title": "🌟Q U O T E S M E N U🌟",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "💎RPG MENU💎",
+                  "title": "🎮R P G M E N U🎮",
                   "description": "",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "🔖STALKER MENU🔖",
+                  "title": "🔖S T A L K E R M E N U🔖",
                   "description": "",
                   "rowId": `${_p}? stalk`
                 }, {
-                  "title": "🏷️SHORT LINK🏷️",
+                  "title": "⭐S H O R T L I N K⭐",
                   "description": "",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "🧰TOOLS MENU🧰",
+                  "title": "🔮T O O L S M E N U🔮",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }
@@ -404,7 +404,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let pp = fs.readFileSync('./src/welcome.png')
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Private Chat", pribadi, `🌏HOME`, `.home`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Private Chat", pribadi, `🌏HOME`, `.menu`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
