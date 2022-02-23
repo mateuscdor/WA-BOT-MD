@@ -14,22 +14,21 @@ let handler = async (m, { conn }) => {
 ├ ⎔ *${groups.length}* Grup
 ├ ⎔ *${chats.length - groups.length}* Chat Pribadi
 ├ ⎔ *${Object.keys(global.db.data.users).length}* Pengguna
-├ ⎔ *${totaljadibot.length}* Jadibot
 ├ ⎔ *${conn.blocklist.length}* Terblock
 ├ ⎔ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ├ ⎔ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 └────
 
 ┌─「 *Pengaturan* 」
-├ ⎔ ${anon ? '✅' : '❌'} *Anon Chat*
-├ ⎔ ${anticall ? '✅' : '❌'} *Anti Call*
-├ ⎔ ${antispam ? '✅' : '❌'} *Anti Spam*
-├ ⎔ ${simi ? '✅' : '❌'} *Chat Bot*
-├ ⎔ ${antitroli ? '✅' : '❌'} *Anti Troli*
-├ ⎔ ${backup ? '✅' : '❌'} *Auto Backup DB*
-├ ⎔ ${group ? '✅' : '❌'} *Mode Grup*
-├ ⎔ ${jadibot ? '✅' : '❌'} *Jadi Bot*
-├ ⎔ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
+├ ⎔ ✅ *Anon Chat*
+├ ⎔ ✅ *Anti Call*
+├ ⎔ ✅ *Anti Spam*
+├ ⎔ ✅ *Chat Bot*
+├ ⎔ ✅ *Anti Troli*
+├ ⎔ ✅ *Auto Backup DB*
+├ ⎔ ✅ *Mode Grup*
+├ ⎔ ✅ *Jadi Bot*
+├ ⎔ ✅ *Mode Nsfw*
 └────
     `.trim())
 }
