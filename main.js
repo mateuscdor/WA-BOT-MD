@@ -47,7 +47,7 @@ global.loadDatabase = async function loadDatabase() {
   if (global.db.data !== null) return
   global.db.READ = true
   await global.db.read()
-  global.db.READ = false
+  global.db.READ = true
   global.db.data = {
     users: {},
     chats: {},
