@@ -404,7 +404,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let pp = fs.readFileSync('./src/welcome.png')
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "📍Instagram", instagram, `HOME`, `.menu`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Private Chat", 'https://wa.me/6285745434522', "👥Group Chat", 'https://chat.whatsapp.com/Dle93ZtAsk2KfrdyFEuvA1', `🌟PROFILE`, `.profile`, `⚡SPEED`, `.ping`, `🌏HOME`, `.menu`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
