@@ -50,7 +50,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': '*MENU UTAMA*',
-  'advanced': '*ADVANCED*',
   'absen': '*MENU ABSEN*',
   'anime': '*MENU ANIME*',
   'sticker': '*MENU CONVERT*',
@@ -125,7 +124,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'owner') tags = {
     'owner': 'Owner',
     'host': 'Host',
-    'advanced': 'Advanced'
   }
   if (teks == 'suara') tags = {
   'Pengubah Suara': '*PENGUBAH SUARA*',
