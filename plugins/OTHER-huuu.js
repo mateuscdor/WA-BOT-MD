@@ -29,6 +29,6 @@ let stikerhuuu = [
  "https://telegra.ph/file/513e77ab1828bf2b04289.png",//supreme
  "https://telegra.ph/file/0d055ae8f069b6008c571.png",//loser
  "https://telegra.ph/file/c9b6480bf242c57204efa.png",//supreme2
- "https://telegra.ph/file/2f618fffab6ff7bea32ab.png",//supreme3
+ "https://telegra.ph/file/b558c25a3b11a8c39b2f4.png",//supreme3
  "https://telegra.ph/file/ec8099f80965561856212.png"//smile
 ]
