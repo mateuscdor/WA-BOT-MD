@@ -17,7 +17,7 @@ let handler = async (m, {conn}) => {
     let user = global.db.data.users[who]
 let anu = `${ucapan()}
 Halo👋
-Ada Yang Bisa Saya Bantu?
+Ada Yang Bisa Bot Bantu?
 Tekan *MENU*
 
 Runtime: ${uptime}`
@@ -26,26 +26,40 @@ Runtime: ${uptime}`
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: gambar() }, 
+           jpegThumbnail: jpegThumbnail: fs.readFileSync('./src/welcome.png') }, 
            hydratedFooterText: `${date}`,
            hydratedButtons: [{
              urlButton: {
-               displayText: '📍instagram',
-               url: instagram
+               displayText: '👤 Private Chat',
+               url: 'https://wa.me/6285745434522'
+             }
+
+           },
+             {
+             urlButton: {
+               displayText: '👥 Group Chat',
+               url: 'https://wa.me/6285745434522'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Menu',
-               id: '.menu',
+               displayText: '⚡ SPEED',
+               id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Jangan Di Pencet',
-               id: 'huuu',
+               displayText: '💰 DONASI',
+               id: '.donasi',
+             }
+
+           },
+           {
+             quickReplyButton: {
+               displayText: '🌏 MENU',
+               id: '.ping',
              }
 
            }]
