@@ -1,42 +1,43 @@
-const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
+const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
+let fs = require('fs')
 let handler = async (m) => {
-let duit = `*────── 「 DONATE 」 ──────*
+    let who
+    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
+    else who = m.sender
+    let user = global.db.data.users[who]
+let anu = `*─────� DONATE 」 ───*
 
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 0895426157070 (OVO/Dana/GoPay)
+├📌Indoosat: 0895426157070
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!
 
 Contact person Owner:
-wa.me/62895426157070 (Owner)`
-let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ca517a39ce85c8a4c0479.jpg' }}, { upload: conn.waUploadToServer })
+wa.me/62895426157070 (Owner)
+
+*donasi via follow ig juga boleh*`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
-           imageMessage: message.imageMessage,
-           hydratedContentText: duit,
+           hydratedContentText: anu,
+           locationMessage: { 
+           jpegThumbnail: fs.readFileSync('./media/welcome.jpg') }, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '🏧 Saweria',
-               url: 'https://saweria.co/MxShimmer01'
+               displayText: '📍instagram📍',
+               url: instagram
              }
 
            },
                {
-             callButton: {
-               displayText: 'Tri',
-               phoneNumber: '+62 895-4261-57070'
-             }
-           },           
-               {
              quickReplyButton: {
-               displayText: '🧒 Owner',
-               id: '.owner',
+               displayText: 'Back To Menu',
+               id: '.menu',
              }
 
            }]
@@ -50,9 +51,8 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
          { messageId: template.key.id }
      )
 }
-
-handler.help = ['donasi']
-handler.tags = ['info']
-handler.command = /^dona(te|si)|bagiduit$/i
+handler.help = ['donasi', 'donate']
+handler.tags = ['xp']
+handler.command = /^(donasi|donate)$/i
 
 module.exports = handler
