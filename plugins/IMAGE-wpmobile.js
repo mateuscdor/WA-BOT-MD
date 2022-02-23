@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
     }
 }
 handler.help = ['wallpaperanime']
-handler.tags = ['internet']
+handler.tags = ['image']
 handler.command = /^(wallpaper|wp)anime$/i
 handler.limit = true
 
