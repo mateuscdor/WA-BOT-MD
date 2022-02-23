@@ -1,4 +1,3 @@
-
 let moment = require('moment-timezone')
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
 let fs = require('fs')
@@ -74,8 +73,8 @@ Runtime: ${uptime}`
          { messageId: template.key.id }
      )
 }
-handler.command = /^(menu|help|\?)$/i
-handler.owner = false
+handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
+handler.command = new RegExp
 handler.mods = false
 handler.premium = false
 handler.group = false
