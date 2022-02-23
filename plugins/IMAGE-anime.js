@@ -21,7 +21,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 }
 
 handler.help = ['anime neko','anime husbu','anime waifu ','anime random']
-handler.tags = ['internet']
+handler.tags = ['image']
 handler.command = /^(anime)$/i
 handler.owner = false
 handler.mods = false
