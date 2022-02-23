@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   conn.sendButtonLoc(m.chat, tumbnel, `
 *TITLE :* ${title}
 *FILESIZE :* ${filesizeF}
-*${isLimit ? 'Pakai ': ''}Link Download:* 
+*${isLimit ? 'Pakai ': ''}LINK :* 
 ${await shortlink(dl_link)}
 `, `Jika Audio tidak di kirim
 silahkan klik link di atas untuk mendownloadnya
