@@ -26,7 +26,7 @@ Runtime: ${uptime}`
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: jpegThumbnail: fs.readFileSync('./src/welcome.png') }, 
+           jpegThumbnail: gambar() }, 
            hydratedFooterText: `${date}`,
            hydratedButtons: [{
              urlButton: {
@@ -104,16 +104,16 @@ function ucapan() {
 function gambar() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   if (time >= 5) {
-    res = fs.readFileSync('./media/pagi.jpg')
+    res = fs.readFileSync('./src/welcome.png')
   }
   if (time > 9) {
-    res = fs.readFileSync('./media/siang.jpg')
+    res = fs.readFileSync('./src/welcome.png')
   }
   if (time >= 15) {
-    res = fs.readFileSync('./media/sore.jpg')
+    res = fs.readFileSync('./src/welcome.png')
   }
   if (time >= 19) {
-    res = fs.readFileSync('./media/malam.jpg')
+    res = fs.readFileSync('./src/welcome.png')
   }
   return res
 }
