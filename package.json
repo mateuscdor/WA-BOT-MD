@@ -1,6 +1,6 @@
 {
-    "name": "Ebot-md",
-    "version": "3.5.4",
+    "name": "WA-BOT-MD",
+    "version": "0.0.1",
     "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
@@ -15,24 +15,18 @@
         "test2": "nodemon index.js"
     },
     "keywords": [
-        "termux-whatsapp-bot",
-        "whatsapp-bot",
-        "whatsapp",
-        "js-whatsapp",
-        "whatsapp",
-        "ShiraoriBOT",
-        "wabot-aq"
+        "whatsapp-bot-md"
     ],
-    "homepage": "https://github.com/Paquito1923/elyasmd",
+    "homepage": "https://github.com/Mx-Shimmer-01/WA-BOT-MD",
     "author": {
-        "name": "Elyas"
+        "name": "z3r0.d4y.3xplo1t"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Paquito1923/elyasmd.git"
+        "url": "git+https://github.com/Mx-Shimmer-01/WA-BOT-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Paquito1923/elyasmd/issues"
+        "url": "https://github.com/Mx-Shimmer-01/WA-BOT-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
