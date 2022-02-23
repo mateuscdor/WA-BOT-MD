@@ -178,7 +178,6 @@ module.exports = {
                     if (!('antiLink' in chat)) chat.antiLink = true
                     if (!('viewonce' in chat)) chat.viewonce = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
-                    if (!('read' in chat)) chat.read = true
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: true,
@@ -187,7 +186,6 @@ module.exports = {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    read: true,
                     delete: true,
                     antiLink: false,
                     viewonce: false,
