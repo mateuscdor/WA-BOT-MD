@@ -2,6 +2,7 @@
 let moment = require('moment-timezone')
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
 let fs = require('fs')
+let name = conn.getName(m.sender)
 let handler = async (m, {conn}) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
@@ -16,9 +17,9 @@ let handler = async (m, {conn}) => {
     else who = m.sender
     let user = global.db.data.users[who]
 let anu = `${ucapan()}
-Halo👋
+Halo ${name}👋
 Ada Yang Bisa Bot Bantu?
-Tekan *MENU*
+Touch *MENU*
 
 Runtime: ${uptime}`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -44,14 +45,14 @@ Runtime: ${uptime}`
            },
                {
              quickReplyButton: {
-               displayText: '⚡ SPEED',
-               id: '.owner',
+               displayText: '👤 PROFILE',
+               id: '.profile',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '💰 DONASI',
+               displayText: '⚡ SPEED',
                id: '.donasi',
              }
 
@@ -59,7 +60,7 @@ Runtime: ${uptime}`
            {
              quickReplyButton: {
                displayText: '🌏 MENU',
-               id: '.ping',
+               id: '.menulist',
              }
 
            }]
@@ -73,8 +74,7 @@ Runtime: ${uptime}`
          { messageId: template.key.id }
      )
 }
-handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
-handler.command = new RegExp
+handler.command = /^(menu|help|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
