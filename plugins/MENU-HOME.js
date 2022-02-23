@@ -58,7 +58,7 @@ Runtime: ${uptime}`
            {
              quickReplyButton: {
                displayText: '🌏 MENU',
-               id: '.menulist',
+               id: '.menu',
              }
 
            }]
@@ -74,7 +74,7 @@ Runtime: ${uptime}`
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(home|bot)$/i
 handler.mods = false
 handler.premium = false
 handler.group = false
