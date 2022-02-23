@@ -19,7 +19,7 @@ SILAHKAN PILIH`
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./src/welcome.jpg')}, 
+           jpegThumbnail: fs.readFileSync('./src/welcome.png')}, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
@@ -30,13 +30,13 @@ SILAHKAN PILIH`
              },
              {
              quickReplyButton: {
-               displayText: 'Tanpa Watermark',
+               displayText: 'NO WATERMARK',
                id: `.tiktoknowm ${text}`,
              }
            },
            {
              quickReplyButton: {
-               displayText: 'dengan watermark',
+               displayText: 'USE WATERMARK',
                id: `.tiktokwm ${text}`,
              }
            }]
