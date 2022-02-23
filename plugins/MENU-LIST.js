@@ -399,7 +399,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let pp = fs.readFileSync('./src/welcome.jpg')
+    let pp = fs.readFileSync('./src/welcome.png')
     await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "📍Instagram", instagram, `HOME`, `.menu`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
