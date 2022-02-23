@@ -72,7 +72,7 @@ Runtime: ${uptime}`
          { messageId: template.key.id }
      )
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['home', 'bot', '?']
 handler.tags = ['main']
 handler.command = /^(home|bot)$/i
 handler.mods = false
