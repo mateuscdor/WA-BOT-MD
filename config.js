@@ -1,4 +1,4 @@
-global.owner = ['6285643354073'] // Put your number here
+global.owner = ['62895426157070',''] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -27,8 +27,8 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://melcanz.com': 'apikeymu',
-  'https://api.xteam.xyz': 'apikeymu',
+  'https://melcanz.com': 'Dc2p5pOP',
+  'https://api.xteam.xyz': 'RootSmile7',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.xyz': 'apivinz',
@@ -36,29 +36,24 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
   'https://zekais-api.herokuapp.com': 'apikeymu',
-  'https://api.lolhuman.xyz': 'apikeymu',
+  'https://api.lolhuman.xyz': '9ebfea81e559b399ff73630d',
 }
-//cari apikey sendiri ya gaes yak
+//cari apikey sendiri ya...
 
 // Sticker WM
-global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'stickerby'
-global.author = `elyas(bot)
+global.stiker_wait = '✨Please Wait...'
+global.packname = ''
+global.author = ''
 
-
-
-
-ig: elyas_tzy`
-
-global.wm = 'by elyas'
+global.wm = ''
 global.watermark = wm
 global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
-global.instagram = 'https://instagram.com/elyas_tzy'
+global.instagram = 'https://www.instagram.com/z3r0.d4y.3xplo1t/'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23401620&text='
-global.wait = '_*tunggu sedang di proses...*_'
-global.eror = '_*Server Error*_'
-global.benar = 'Benar ✅\n'
-global.salah = 'Salah ❌\n'
+global.wait = '✨Please Wait...'
+global.eror = '✨404 Not Found...'
+global.benar = 'Benar... ✅\n'
+global.salah = 'Salah... ❌\n'
 
 global.multiplier = 69 // The higher, The harder levelup
 
