@@ -177,6 +177,7 @@ module.exports = {
                     if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = true
                     if (!('viewonce' in chat)) chat.viewonce = false
+                    if (!('read' in chat)) chat.read = true
                     if (!('antiToxic' in chat)) chat.antiToxic = false
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
@@ -187,6 +188,7 @@ module.exports = {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
+                    read: true,
                     antiLink: false,
                     viewonce: false,
                     antiToxic: true,
@@ -435,7 +437,7 @@ module.exports = {
             // } catch (e) {
             //     console.log(m, m.quoted, e)
             // }
-            if (opts['autoread']) await this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
+            if (db.data.chats[m.chat].read) await this.chatRead(m.chat).catch(() => { })
             let quequeIndex = this.msgqueque.indexOf(m.id || m.key.id)
             if (opts['queque'] && m.text && quequeIndex !== -1) this.msgqueque.splice(quequeIndex, 1)
         }
