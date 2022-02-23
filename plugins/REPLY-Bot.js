@@ -72,7 +72,9 @@ Runtime: ${uptime}`
          { messageId: template.key.id }
      )
 }
-handler.command = /^(menut|helpt|\?)$/i
+handler.help = ['menu', 'help', '?']
+handler.tags = ['main']
+handler.command = /^(menu|help|\?)$/i
 handler.mods = false
 handler.premium = false
 handler.group = false
