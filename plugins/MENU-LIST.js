@@ -18,7 +18,7 @@ const defaultMenu = {
 ├ ⎔ Remaining : %limitⓁ
 ├ ⎔ Level : %level [%exp / %maxexp]
 ├ ⎔ %totalexp Xp In Total
-└ ⎔ %xp4levelup
+└ ⎔ %xp4levelup To level Up
 
 ┌─〔 Bot Information 〕
 ├ ⎔ Name : %me
@@ -53,6 +53,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'absen': '*MENU ABSEN*',
   'anime': '*MENU ANIME*',
   'sticker': '*MENU CONVERT*',
+  'texpro': '*MENU TEXPRO*',
   'downloader': '*MENU DOWNLOADER*',
   'xp': '*MENU EXP*',
   'fun': '*MENU FUN*',
@@ -84,6 +85,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'sticker') tags = {
   'sticker': '*MENU CONVERT*',
+  }
+  if (teks == 'texpro') tags = {
+  'texpro': '*MENU TEXPRO*',
   }
   if (teks == 'downloader') tags = {
   'downloader': '*MENU DOWNLOADER*',
@@ -209,15 +213,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 👋${name}
 〔─────「 WA-BOT 」─────〕
 
-┌─〔 📍 RULES WA-BOT 📍 〕
-├ ⎔ Dilarang Spam
+┌─〔 👾 RULES WA-BOT 👾 〕
+├ ⎔ Dilarang Spam 
 ├ ⎔ Beri Jeda 5 Detik
-├ ⎔ Dilarang Diperjual belikan
-├ ⎔ Dilarang Share Nomer Bot
-├ ⎔ Kecuali Izin Owner√
-└ ⎔ Selainnya Tanya Owner
+├ ⎔ Dilarang Buat Sticker Gore
+├ ⎔ Dilarang Buat Sticker 18+
+├ ⎔ Dilarang Buat Aneh Aneh
+└ ⎔ Dilarang Buat Mainan
 
-┌─〔 🌟 INFORMATION 🌟 〕
+┌─〔 ☣️ INFORMATION ☣️ 〕
 ├ Ⓣ : Text
 ├ ⓔ : Efek
 ├ Ⓛ : Limit
@@ -238,98 +242,102 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             sections: [
               {
                 "rows": [{
-                  "title": `😎O W N E R B O T😎`,
+                  "title": `⭐O W N E R B O T⭐`,
                   "description": "",
                   "rowId": `.owner`
                 },{
-                  "title": "🤖I N F O R M A S I🤖",
+                  "title": "⭐I N F O R M A S I⭐",
                   "description": "",
                   "rowId": `${_p}? info`
                 }],
-                "title": "✨Informasi Bot✨"
+                "title": "🌟I N F O R M A S I B O T🌟"
               }, {
                 "rows": [{
-                  "title": `👾S E M U A - P E R I N T AH👾`,
+                  "title": `⭐S E M U A - P E R I N T A H⭐`,
                   "description": "",
                   "rowId": `${_p}? all`
                   }, {
-                  "title": "🎉A B S E N & V O T I N G🎉",
+                  "title": "⭐A B S E N & V O T I N G⭐",
                   "description": "",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "🥺A N I M E - M E N U🥺",
+                  "title": "⭐A N I M E - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? anime`
                 }, {
-                  "title": "💥S T I C K E R - M E N U💥",
+                  "title": "⭐S T I C K E R - M E N U🌟",
                   "description": "",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "💾D O W N L O A D - M E N U💾",
+                  "title": "⭐T E X T P R O - M E N U🌟",
+                  "description": "",
+                  "rowId": `${_p}? texpro`
+                }, {
+                  "title": "⭐D O W N L O A D - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "🧬E X P & L I M I T🧬",
+                  "title": "⭐E X P & L I M I T⭐",
                   "description": "",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "🥳F U N - M E N U🥳",
+                  "title": "⭐F U N - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "🎲G A M E - M E N U🎲",
+                  "title": "⭐G A M E - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? game`
                 }, {
-                  "title": "🃏G I T H U B - M E N U🃏",
+                  "title": "⭐G I T H U B - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? github`
                 }, {
-                  "title": "🎭G R O U P - M E N U🎭",
+                  "title": "⭐G R O U P - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "ⓜ🌌I M A G E - M E N U🌌",
+                  "title": "⭐I M A G E - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "🌏I N T E R N E T - M E N U🌏",
+                  "title": "⭐I N T E R N E T - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "✨I S L A M - M E N U✨",
+                  "title": "⭐I S L A M - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "🐚K E R A N G - M E N U🐚",
+                  "title": "⭐K E R A N G - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? kerang`
                 }, {
-                  "title": "🪄M A K E R - M E N U🪄",
+                  "title": "⭐M A K E R - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? maker`
                 }, {
-                  "title": "⛔O W N E R - M E N U⛔",
+                  "title": "⭐O W N E R - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "🎶V O I C E - M E N U🎶",
+                  "title": "⭐V O I C E - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? suara`
                 }, {
-                  "title": "💳P R E M I U M - M E N U💳",
+                  "title": "⭐P R E M I U M - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "🌟Q U O T E S - M E N U🌟",
+                  "title": "⭐Q U O T E S - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "🎮R P G - M E N U🎮",
+                  "title": "⭐R P G - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? rpg`
                 }, {
-                  "title": "🔖S T A L K E R - M E N U🔖",
+                  "title": "⭐S T A L K E R - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? stalk`
                 }, {
@@ -337,12 +345,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "🔮T O O L S - M E N U🔮",
+                  "title": "⭐T O O L S - M E N U⭐",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }
                   ],
-                "title": "📖LIST MENU📖"
+                "title": "🌟L I S T M E N U🌟"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
