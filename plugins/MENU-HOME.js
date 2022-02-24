@@ -19,21 +19,21 @@ Halo senpai👋
 Ada Yang Bisa Bot Bantu?
 Touch *MENU*
 Runtime: ${uptime}
-┏ ┅ ━━━━━━━━━━━━━━━ ┅ ━
-┃1 Grub / 7 Hari
-┃Rp. 5,000 Pulsa, Dana
-┃ 
-┃Premium / 7 Hari
-┃Rp. 10,000 Pulsa, Dana
-┃ 
-┃1 Grub / 30 Hari
-┃Rp. 20,000 Pulsa, Dana
-┃
-┃Premium / 30 Hari
-┃Rp. 30,000 Pulsa, Dana
-┃
-┃Via Dana/Pulsa : 0895426157070
-┗ ┅ ━━━━━━━━━━━━━━━ ┅ ━
+
+1 Grub / 7 Hari
+Rp. 5,000 Pulsa, Dana
+
+Premium / 7 Hari
+Rp. 10,000 Pulsa, Dana
+
+1 Grub / 30 Hari
+Rp. 20,000 Pulsa, Dana
+
+Premium / 30 Hari
+Rp. 30,000 Pulsa, Dana
+
+Via Dana/Pulsa : 
+https://wa.me/62895426157070
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
