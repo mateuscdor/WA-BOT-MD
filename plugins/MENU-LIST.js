@@ -289,7 +289,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "🌌I M A G E - M E N U🌌",
+                  "title": "ⓜ🌌I M A G E - M E N U🌌",
                   "description": "",
                   "rowId": `${_p}? image`
                 }, {
