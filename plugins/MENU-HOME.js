@@ -43,7 +43,7 @@ https://wa.me/62895426157070
            hydratedContentText: anu,
            locationMessage: { 
            jpegThumbnail: gambar() }, 
-           hydratedFooterText: `${date} Online 24H⎋ Nonstop`,
+           hydratedFooterText: `${date}`,
            hydratedButtons: [{
              urlButton: {
                displayText: '🛒 Buy Premium',
