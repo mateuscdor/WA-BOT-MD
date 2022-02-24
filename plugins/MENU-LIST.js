@@ -209,24 +209,24 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 👋${name}
 〔─────「 WA-BOT 」─────〕
 
-───〔 📍 RULES WA-BOT 📍 〕───
-⎔ Dilarang Spam ❌
-⎔ Beri Jeda 5 Detik 💤
-⎔ Dilarang Ngecheat 💰
-⎔ Dilarang Buat 18+ 🔞
-⎔ Dilarang Buat Gore 📵
-⎔ Selainnya Tanya Owner 👤
+┌─〔 📍 RULES WA-BOT 📍 〕
+├ ⎔ Dilarang Spam
+├ ⎔ Beri Jeda 5 Detik
+├ ⎔ Dilarang Diperjual belikan
+├ ⎔ Dilarang Share Nomer Bot
+├ ⎔ Kecuali Izin Owner√
+└ ⎔ Selainnya Tanya Owner
 
-───〔 ⚡ INFORMATION ⚡ 〕───
-Ⓣ : Text 📄
-ⓔ : Efek 🪄
-Ⓛ : Limit ✅
-Ⓟ : Premium 💳
-ⓜ : Maintance 📴
+┌─〔 ⚡ INFORMATION ⚡ 〕
+├ Ⓣ : Text
+├ ⓔ : Efek
+├ Ⓛ : Limit
+├ Ⓟ : Premium
+└ ⓜ : Maintance
 
-───〔 ✨ ABOUT BOT ✨ 〕───
-Website : http://cmd.to/Ir24q
-Bot Group : http://cmd.to/IWPB1
+┌─〔 ✨ SUPORT US ✨ 〕
+├ Website : http://cmd.to/Ir24q
+└ Bot Group : http://cmd.to/IWPB1
 
 
 `.trim(),
