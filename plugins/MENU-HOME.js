@@ -15,10 +15,12 @@ let handler = async (m, {conn}) => {
     else who = m.sender
     let user = global.db.data.users[who]
 let anu = `${ucapan()}
-Halo senpai👋
+
 Ada Yang Bisa Bot Bantu?
-Touch *MENU*
-Runtime: ${uptime}
+Menu : Untuk Menampilkan Command
+Profile : Untuk Menampilkan Info Kamu
+Speed : Untuk Menampilkan Kecepatan Bot
+Runtime : ${uptime}
 
 1 Grub / 7 Hari
 Rp. 5,000 Pulsa, Dana
@@ -41,11 +43,11 @@ https://wa.me/62895426157070
            hydratedContentText: anu,
            locationMessage: { 
            jpegThumbnail: gambar() }, 
-           hydratedFooterText: `${date}`,
+           hydratedFooterText: `${date} Online 24H⎋ Nonstop`,
            hydratedButtons: [{
              urlButton: {
                displayText: '🛒 Buy Premium',
-               url: 'https://wa.me/6285745434522'
+               url: 'https://wa.me/p/6925735720833015/62895426157070'
              }
 
            },
