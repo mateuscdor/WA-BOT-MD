@@ -20,7 +20,7 @@ contoh penggunaan:
 	}
 	await conn.groupSettingUpdate(m.chat, isClose)
 }
-handler.help = ['grup <buka/tutup>']
+handler.help = ['group open/close']
 handler.tags = ['group']
 handler.command = /^(gro?up)$/i
 handler.owner = false
