@@ -105,6 +105,9 @@ module.exports = handler
 
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
+  if (time >= 23) {
+    res = "Selamat Begadang😴"
+  }
   if (time >= 5) {
     res = "Selamat pagi🌄"
   }
@@ -121,6 +124,9 @@ function ucapan() {
 }
 function gambar() {
   const time = moment.tz('Asia/Jakarta').format('HH')
+  if (time >= 23) {
+    res = fs.readFileSync('./src/welcome.png')
+  }
   if (time >= 5) {
     res = fs.readFileSync('./src/welcome.png')
   }
