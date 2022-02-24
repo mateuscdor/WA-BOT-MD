@@ -18,8 +18,8 @@ ${await shortlink(dl_link)}
 silahkan klik link di atas untuk mendownloadnya
 `.trim(), 'OK', 'OK', m)
   if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp3', `
-*Title:* ${title}
-*Filesize:* ${filesizeF}
+*TITLE :* ${title}
+*FILESIZE :* ${filesizeF}
 `.trim(), m, null, {
   asDocument: chat.useDocument
 })
