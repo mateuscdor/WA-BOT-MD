@@ -217,7 +217,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ├ ⎔ Kecuali Izin Owner√
 └ ⎔ Selainnya Tanya Owner
 
-┌─〔 ⚡ INFORMATION ⚡ 〕
+┌─〔 🌟 INFORMATION 🌟 〕
 ├ Ⓣ : Text
 ├ ⓔ : Efek
 ├ Ⓛ : Limit
@@ -376,8 +376,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
               return menu.help.map(help => {
                 return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                  .replace(/%islimit/g, menu.limit ? '🅛' : '')
-                  .replace(/%isPremium/g, menu.premium ? '🅟' : '')
+                  .replace(/%islimit/g, menu.limit ? 'Ⓛ' : '')
+                  .replace(/%isPremium/g, menu.premium ? 'Ⓟ' : '')
                   .trim()
               }).join('\n')
             }),
@@ -404,7 +404,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let pp = fs.readFileSync('./src/welcome.png')
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Chat Owner", pribadi, `🌏DASHBOARD`, `.home`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '⎔ Status Active 24H⎋ Nonstop', "👤Private Chat", pribadi, `🌏HOME`, `.home`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
