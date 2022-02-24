@@ -44,14 +44,14 @@ https://wa.me/62895426157070
            hydratedFooterText: `${date}`,
            hydratedButtons: [{
              urlButton: {
-               displayText: '👤 Private Chat',
+               displayText: '🛒 Buy Premium',
                url: 'https://wa.me/6285745434522'
              }
 
            },
              {
              urlButton: {
-               displayText: '👥 Group Chat',
+               displayText: '👥 Group Bot',
                url: 'https://chat.whatsapp.com/Dle93ZtAsk2KfrdyFEuvA1'
              }
 
