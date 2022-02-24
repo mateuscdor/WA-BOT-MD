@@ -1,0 +1,18 @@
+let fetch = require('node-fetch')
+
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+    if (!text) throw `Penggunaan:\n${usedPrefix + command} <url>\n\nContoh:\n${usedPrefix + command} https://vt.tiktok.com/ZGJBtcsDq/`
+    let res = await fetch(API('amel', '/tiktok', { url: text }, 'apikey'))
+    if (!res.ok) throw eror
+    let json = await res.json()
+    if (!json.status) throw json
+    await m.reply(wait)
+    await conn.sendFile(m.chat, json.videoSD, 'tiktok.mp4', '', m)
+}
+handler.help = ['tiktok2'].map(v => v + ' <url>')
+handler.tags = ['downloader']
+handler.command = /^(tiktok2|tt)$/i
+
+handler.limit = 1
+
+module.exports = handler
