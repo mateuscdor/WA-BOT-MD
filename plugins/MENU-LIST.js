@@ -46,7 +46,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools']
+  let arrayMenu = ['all', 'absen', 'textpro', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': '*MENU UTAMA*',
@@ -86,8 +86,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'sticker') tags = {
   'sticker': '*MENU CONVERT*',
   }
-  if (teks == 'texpro') tags = {
-  'texpro': '*MENU TEXPRO*',
+  if (teks == 'textpro') tags = {
+  'textpro': '*MENU TEXPRO*',
   }
   if (teks == 'downloader') tags = {
   'downloader': '*MENU DOWNLOADER*',
@@ -271,7 +271,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 }, {
                   "title": "⭐T E X T P R O - M E N U🌟",
                   "description": "",
-                  "rowId": `${_p}? texpro`
+                  "rowId": `${_p}? textpro`
                 }, {
                   "title": "⭐D O W N L O A D - M E N U⭐",
                   "description": "",
