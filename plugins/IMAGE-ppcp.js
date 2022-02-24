@@ -13,4 +13,6 @@ handler.tags = ['image']
 handler.command = /^ppcp2$/i
 
 
+handler.limit = true
+
 module.exports = handler
