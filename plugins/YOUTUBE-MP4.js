@@ -10,7 +10,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *TITLE :* ${title}
 *FILESIZE :* ${filesizeF}
-*${isLimit ? 'Pakai ': ''}
+${isLimit ? 'Pakai ': ''}
 `.trim(), m)
   let _thumb = {}
   try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
