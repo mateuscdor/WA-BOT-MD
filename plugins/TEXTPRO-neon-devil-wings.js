@@ -4,7 +4,7 @@ let handler = async (m, { conn, args }) => {
   if (!args[0]) throw 'Masukkan Teks'
   m.reply('✨Please Wait...')
   let res = `http://hadi-api.herokuapp.com/api/textpro/neon-devil-wings?teks=${response[0]}`
-  conn.sendFile(m.chat, res, 'underwatee.jpg', `✅Sudah jadi...`, m, false)
+  conn.sendFile(m.chat, res, 'devilwings.jpg', `✅Sudah jadi...`, m, false)
 }
 handler.help = ['devilwings'].map(v => v + ' <text>')
 handler.tags = ['textpro']
