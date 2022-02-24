@@ -11,9 +11,11 @@ if (!text) return conn.reply(m.chat, 'Harap masukkan link\n\nContoh: .tiktok htt
     let user = global.db.data.users[who]
     let more = String.fromCharCode(8206)
     let readMore = more.repeat(4001)
-let tiktok = `*⎔ 〔 Tiktok Downloader 〕 *
+let tiktok = `*〔 Tiktok Downloader 〕*
+
 ❌ : Tanpa Watermark
 ✅ : Pakai Watermark
+
 SILAHKAN PILIH SENDIRI`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
