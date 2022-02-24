@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ').split('|')
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('*Wait Ngab*\nProses...')
-  let res = `https://caliphapi.com/api/lolimaker?text=${response[0]}&text2=elyas&apikey=fwA4UVbh`
+  let res = `https://caliphapi.com/api/lolimaker?text=${response[0]}&text2=shimmer&apikey=fwA4UVbh`
   conn.sendFile(m.chat, res, 'lolilogo.jpg', `Sudah Jadi`, m, false)
 }
 handler.help = ['logololi'].map(v => v + ' <text>')
