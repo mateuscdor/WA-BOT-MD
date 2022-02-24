@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
-┏ ┅ ━━━━━━━━━━━━ ┅ ━
-┇       *「 ANIME LINK 」*
-┣ ┅ ━━━━━━━━━━━━ ┅ ━
+*「 Anime 」*
+
+┏ ┅ ━━━━━━━━━━━━━━━ ┅ ━
 ┃ ❖ https://kusonime.com
 ┃ ❖ https://anoboy.media
 ┃ ❖ https://oploverzz.net
@@ -13,7 +13,7 @@ let handler = async m => m.reply(`
 ┃ ❖ https://Anitoki.xyz
 ┃ ❖ https://Anime-indo.cc
 ┃ ❖ https://otakudere.net
-┃ ❖ https://huntersekaisub.blogspot.com
+┃ ❖ www.huntersekai.download
 ┃ ❖ https://o.anibatch.me
 ┃ ❖ https://animeku.me
 ┃ ❖ https://anikyojin.net
@@ -43,11 +43,10 @@ let handler = async m => m.reply(`
 ┃ ❖ https://kazefuri.net
 ┃ ❖ https://haruzorasubs.net
 ┃ ❖ https://myanimelist.net
-┗ ┅ ━━━━━━━━━━━ ┅ ━
+┗ ┅ ━━━━━━━━━━━━━━━ ┅ ━
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['animelink']
-handler.tags = ['anime']
+handler.tags = ['internet']
 handler.command = /^animelink$/i
-handler.register =false
 
 module.exports = handler
