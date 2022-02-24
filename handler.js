@@ -462,7 +462,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang 1'))
-                                this.sendButtonLoc(id, await(await fetch(pp)).buffer(), text, '', "ok", "huuu", null)
+                                this.sendButtonLoc(id, await(await fetch(pp)).buffer(), text, '', "OKE", "huuu", null)
                                 }
                     }
                 }
@@ -511,7 +511,7 @@ global.dfail = (type, m, conn) => {
         unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
-    if (msg) return conn.sendBut(m.chat, msg, wm, 'ok', 'ok', m)
+    if (msg) return conn.sendBut(m.chat, msg, wm, 'OK', 'OL', m)
 }
 
 let fs = require('fs')
