@@ -5,12 +5,12 @@ let handler = async (m) => {
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     else who = m.sender
     let user = global.db.data.users[who]
-let anu = `*─────� DONATE 」 ───*
+let anu = `────❑ 「 DONASI 」 ❑────
 
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├📌Indoosat: 0895426157070
+├📌Tri: 0895426157070
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
@@ -36,7 +36,7 @@ wa.me/62895426157070 (Owner)
            },
                {
              quickReplyButton: {
-               displayText: 'Back To Menu',
+               displayText: '⎔ BACK TO MENU',
                id: '.menu',
              }
 
