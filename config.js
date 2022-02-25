@@ -49,7 +49,7 @@ global.wm = ''
 global.watermark = wm
 global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
 global.instagram = 'https://www.instagram.com/z3r0.d4y.3xplo1t/'
-global.pribadi = 'https://wa.me/6285745434522'
+global.pribadi = 'https://wa.me/62895426157070'
 global.vip = 'https://wa.me/p/6925735720833015/62895426157070'
 global.group = 'https://chat.whatsapp.com/Dle93ZtAsk2KfrdyFEuvA1'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23401620&text='
