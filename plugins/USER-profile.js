@@ -18,7 +18,7 @@ let anu = `────❑ 「 BALANCE 」 ❑────
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/bank.jpg') }, 
+           jpegThumbnail: fs.readFileSync('./src/welcome.png') }, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
@@ -29,7 +29,7 @@ let anu = `────❑ 「 BALANCE 」 ❑────
            },
                {
              quickReplyButton: {
-               displayText: 'Back To Menu',
+               displayText: '⎔ BACK TO MENU',
                id: '.menu',
              }
 
