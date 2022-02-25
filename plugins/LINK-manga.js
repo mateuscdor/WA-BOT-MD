@@ -28,7 +28,7 @@ let handler = async m => m.reply(`
 ┗ ┅ ━━━━━━━━━━━━━━━ ┅ ━
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['mangalink','manhwalink']
-handler.tags = ['internet']
+handler.tags = ['anime']
 handler.command = /^ma(nga|nhwa)link$/i
 handler.group = false
 
