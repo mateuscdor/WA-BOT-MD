@@ -16,12 +16,14 @@ let handler = async (m, {conn}) => {
     let user = global.db.data.users[who]
 let anu = `${ucapan()}
 
-Ada Yang Bisa Bot Bantu?
-Menu : Untuk Menampilkan Command
-Profile : Untuk Menampilkan Info Kamu
-Speed : Untuk Menampilkan Kecepatan Bot
-Runtime : ${uptime}
+*✅Fitur Premium :*
 
+Unlimited Limit✅
+Unlimited Download✅
+Unlimited Spam SMS✅
+Unclock All Fitur✅
+
+*🛒List Harga Sewa :*
 1 Grub / 7 Hari
 Rp. 5,000 Pulsa, Dana
 
