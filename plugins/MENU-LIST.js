@@ -18,7 +18,7 @@ const defaultMenu = {
 ├ ⎔ Remaining : %limitⓁ
 ├ ⎔ Level : %level [%exp / %maxexp]
 ├ ⎔ %totalexp Xp In Total
-└ ⎔ %xp4levelup To level Up
+└ ⎔ %xp4levelup XP To level Up
 
 ┌─〔 Bot Information 〕
 ├ ⎔ Name : %me
@@ -213,7 +213,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 👋${name}
 〔─────「 WA-BOT 」─────〕
 
-┌─〔 👾 RULES WA-BOT 👾 〕
+┌─〔 📍 RULES WA-BOT 📍 〕
 ├ ⎔ Dilarang Spam 
 ├ ⎔ Beri Jeda 5 Detik
 ├ ⎔ Dilarang Buat Sticker Gore
@@ -221,20 +221,20 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ├ ⎔ Dilarang Buat Aneh Aneh
 └ ⎔ Dilarang Buat Mainan
 
-┌─〔 ☣️ INFORMATION ☣️ 〕
+┌─〔 ⚠️ INFORMATION ⚠️ 〕
 ├ Ⓣ : Text
 ├ ⓔ : Efek
 ├ Ⓛ : Limit
 ├ Ⓟ : Premium
 └ ⓜ : Maintance
 
-┌─〔 ✨ SUPORT US ✨ 〕
+┌─〔 🔥 SUPORT US 🔥 〕
 ├ Website : http://cmd.to/Ir24q
 └ Bot Group : http://cmd.to/IWPB1
 
 
 `.trim(),
-            description: "⎔ Bot Active 24H⎋ Nonstop",
+            description: "⎔ Active 24H⎋ Nonstop",
             buttonText: 'TOUCH ME SENPAI',
             listType: 1,
             footerText: "",
