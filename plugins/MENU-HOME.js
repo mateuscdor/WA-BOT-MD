@@ -33,9 +33,6 @@ Rp. 20,000 Pulsa, Dana
 
 Premium / 30 Hari
 Rp. 30,000 Pulsa, Dana
-
-Via Dana/Pulsa : 
-https://wa.me/62895426157070
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
